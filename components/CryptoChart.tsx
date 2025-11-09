@@ -32,7 +32,7 @@ export default function CryptoChart({
 
     const [coin, setCoin] = useState(initialCoin);
     const [days, setDays] = useState(initialDays);
-    const [data, setData] = useState([]);
+    const [data, setData] = useState<{time: string;price:number}[]>([]);
     const [error, setError] = useState<string | null>(null);
     const [openErrorPopup, setOpenErrorPopup] = useState(false);
     const [loading, setLoading] = useState(false);

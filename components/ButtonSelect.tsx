@@ -1,10 +1,11 @@
 "use client";
 
 import React from "react";
+import {JSX} from "react";
 
 interface Option<T> {
     id: number | string;
-    label: string;
+    label: JSX.Element | string;
     value: T;
 }
 
