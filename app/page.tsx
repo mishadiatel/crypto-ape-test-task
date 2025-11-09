@@ -1,6 +1,5 @@
 import CryptoChart from "@/components/CryptoChart";
 import { FaBitcoin } from "react-icons/fa";
-import {fetchCryptoData} from "@/api/crypto";
 
 
 interface PageProps {
